@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><h3><%= list.title %> </h3> </li>
+        <li> <%= list.description %> </li>
+        <li> &#x20B9; <%= list.price.toLocaleString("en-IN") %> </li>
+        <li> <%= list.location %> </li>
+        <li> <%= list.country %> </li>
+        <a href="/listings/edit/<%=list._id%>"><button>Edit</button></a>
+    </ul>
+    
+</body>
+</html>
