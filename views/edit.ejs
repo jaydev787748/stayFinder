@@ -7,11 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <input name="listing[title]" value="<%=list.title%>">
-    <input name="listing[description]" value="<%=list.description %>">
-    <input name="listing[price]" value="<%=list.price%>">
-    <input name="listing[location]" value="<%=list.location%>">
-    <input name="listing[country]" value="<%=list.country%>">
-    
+   
+    <form method="post" action="/listings/<%=list._id%>?_method=PUT">
+        <input name="listing[title]" value="<%=list.title%>">
+        <input name="listing[description]" value="<%=list.description %>">
+        <input name="listing[price]" value="<%=list.price%>">
+        <input name="listing[location]" value="<%=list.location%>">
+        <input name="listing[country]" value="<%=list.country%>">
+        <button>Update</button>    
+    </form>
 </body>
 </html>
