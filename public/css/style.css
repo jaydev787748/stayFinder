@@ -1,9 +1,42 @@
 
 .navbar{
-    height: 5rem !important;
+    /* height: 5rem !important; */
+    background-color: white;
 
 }
 .fa-compass{
     color: #fe424d;
     font-size: 2rem;
 }
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.89) !important;
+}
+footer  {
+    text-align: center;
+    height: 6rem;
+    width: 100%;
+    background-color: #74232827 !important;
+    padding-top: 2rem;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+footer > div > a{
+    color: #fe424d;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/* .newform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 20rem;
+} */
