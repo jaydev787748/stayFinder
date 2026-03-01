@@ -2,8 +2,13 @@
 .navbar{
     /* height: 5rem !important; */
     background-color: white;
-
+    
 }
+.rye-regular {
+    font-family: "Rye", serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
 .fa-compass{
     color: #fe424d;
     font-size: 2rem;
@@ -12,11 +17,12 @@
 .nav-link{
     color: rgba(0, 0, 0, 0.89) !important;
 }
+
 footer  {
     text-align: center;
     height: 6rem;
     width: 100%;
-    background-color: #74232827 !important;
+    background-color: light !important;
     padding-top: 2rem;
 }
 
@@ -32,11 +38,39 @@ footer > div > a{
     margin-left: 20px;
 }
 
-/* .newform{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-    height: 20rem;
-} */
+.card{
+    border: none;
+    transition: transform 1s ease-in-out 0.1s;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    height: 15rem;
+}
+.card-body{
+    padding:0;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+opacity: 0.2;
+}
+
+.card-main:hover{
+    opacity:0.9;
+    transform: scale(1.03);
+    /* background-color: white; */
+}
+.card-main:hover .card-img-overlay{
+    opacity: 0.8;
+}
+
+.card-details{
+    width: 500px;
+    height: 400px;
+
+}
